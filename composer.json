@@ -1,0 +1,45 @@
+{
+    "name": "tal7aouy/pdf-to-image",
+    "description": "Convert a pdf to an image",
+    "keywords": [
+        "tal7aouy",
+        "pdf2image",
+        "pdf",
+        "convert",
+        "image"
+    ],
+    "homepage": "https://github.com/tal7aouy/pdf2image",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freek Van der Herten",
+            "email": "tal7aouy@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tal7aouy\\Pdf2Image\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tal7aouy\\Pdf2Image\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "require": {
+        "php" : "^7.2|^8.0",
+        "ext-imagick" : "*"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
