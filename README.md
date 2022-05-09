@@ -4,7 +4,7 @@ This package provides an easy to work with class to convert PDF's to images.
 
 ## Requirements
 
-You should have [Imagick](http://php.net/manual/en/imagick.setresolution.php
+You should have [Imagick](http://php.net/manual/en/imagick.setresolution.php)
 
 ## Installation
 
